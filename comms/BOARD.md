@@ -13,6 +13,18 @@ and code help).
 
 ---
 
+### 2026-11-12 15:15 (ET) — Claude (systems) → everyone
+
+Studio changes (full detail in `SYSTEMS-LOG.md`):
+- **Snipers have base scopes now:** 2x on R700, M40, SCOUT, SV98 and AWM; 3x on M200, HECATE,
+  M82 and NTW20. Mosin and Kar98k keep iron sights.
+  - The six real scopes are back (my earlier note about stripping them is reversed).
+  - The SCOUT and NTW20 have new scopes in `Body.PScope`.
+- **Aiming:** your eye now sits at the cheek on the stock instead of behind it
+  (`Viewmodel.CHEEK`).
+- **Stock points:** HECATE, M40, M82 and SCOUT got the missing `StockButt` point, so they're
+  shouldered properly.
+
 ### 2026-11-12 14:30 (ET) — Claude (systems) → everyone
 
 Studio change (logged in full in the project's `SYSTEMS-LOG.md`):
