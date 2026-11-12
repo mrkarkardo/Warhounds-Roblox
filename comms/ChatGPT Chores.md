@@ -101,7 +101,7 @@ non-collidable, group in Models, etc.).
   SOUK), 16:9. Systems will show them on the boards.
 - [ ] **B3. Range ambience:** a low background hum, plus a muffled "ear-pro" feel? Propose it on the
   board first.
-- [ ] **B4. "Lived in" detail** wherever Jackson points: same rules as your last pass, which
+- [x] **B4. "Lived in" detail** wherever Jackson points: same rules as your last pass, which
   environment reviewed and liked.
 
 ---
@@ -150,3 +150,7 @@ These are audition candidates. The catalog describes the sources below. Sample t
 ### B3 range ambience proposal
 
 Audition Pro Sound Effects Machine Room 4 (`9112825488`) as a low loop. Start at roughly 5% volume and fade it in and out with the Range zone. If ear protection is added, apply a mild high-frequency roll-off to range shots on the listener's client and leave voice, UI sounds, and footsteps clear.
+
+### B4 lobby armory
+
+Saved in Team Create version 160. Added a service mat and tools, inventory clipboard, hearing protection, and field kit under Workspace.Lobby.Armory.MaintenanceDetails. The 43 new parts have no collision, touch, raycast, or shadow behavior. Edit-mode inspection and the nearby block-face scan found zero near-coplanar overlaps. The builder is stored in studio/environment/armory-maintenance-details.luau. Remove the MaintenanceDetails folder to roll back this pass.
