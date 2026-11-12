@@ -12,9 +12,16 @@ teammate (ChatGPT). Studio pulls from here; Claude reads and writes here; ChatGP
 | `art/inbox/` | Finished images for the game. PNG only. | Imaging teammate |
 
 ## Image handoff
-1. Read `art/requests/` for what's needed, and `art/BRIEF.md` for colours, style and rules.
-2. Name files `wh_<type>_<name>_<WxH>.png`, e.g. `wh_thumb_rangeshot_1920x1080.png`.
-3. Put them in `art/inbox/` (commit, or send to Jackson and he commits them).
-4. Jackson uploads to Roblox and writes each asset ID into the request file.
+1. Read `art/requests/` and `comms/ChatGPT Chores.md` for what's needed, and `art/BRIEF.md` for colours, style and rules.
+2. Name files `wh_<type>_<name>_<WxH>.png`, e.g. `wh_fx_smoke_256.png`. PNG only.
+3. Push them to `art/inbox/`.
+4. **Claude (systems) uploads them to Roblox automatically** (standing OK from Jackson). It copies
+   them to Jackson's PC (`Downloads\WARHOUNDS-art`, the approved upload folder), uploads through
+   Studio, and writes each asset ID into the table in `ChatGPT Chores` or the request file.
+   Uploaded files then move from `art/inbox/` to `art/uploaded/`.
+5. Images can show blank in game for a few minutes while Roblox moderates them.
+
+Uploaded so far: `art/brand/warhounds_logo_transparent.png` → `rbxassetid://129051910041827`
+(loading screen + lobby wall screen 1).
 
 Nothing in this repo is secret: it's public. Don't put passwords, keys or personal info here.
