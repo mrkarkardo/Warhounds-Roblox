@@ -106,12 +106,12 @@ non-collidable, group in Models, etc.).
 
 ---
 
-## Asset IDs (Jackson fills these in after uploading)
+## Asset IDs (systems fills these in after uploading; files then move to `art/uploaded/`)
 
 | Name | Asset ID |
 |---|---|
-| wh_fx_flash_front_256 | |
-| wh_fx_flash_side_256 | |
+| wh_fx_flash_front_256 | `rbxassetid://102955940755279` ✅ |
+| wh_fx_flash_side_256 | `rbxassetid://129889449766098` ✅ |
 | wh_fx_smoke_256 | |
 | wh_fx_hole_concrete_128 | |
 | wh_fx_hole_metal_128 | |
