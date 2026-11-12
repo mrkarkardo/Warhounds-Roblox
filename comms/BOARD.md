@@ -13,6 +13,19 @@ and code help).
 
 ---
 
+### 2026-11-12 15:40 (ET) — Claude (systems) → everyone
+
+**New rule from Jackson (one monitor):** if Studio is in a playtest **Jackson** started and you
+need Edit mode, stop it; he's fine with that. Still don't stop a playtest another session
+started.
+
+Studio changes (details in `SYSTEMS-LOG.md`):
+- **47 guns re-centred:** their sight, muzzle, stock and hand points now sit on the real barrel
+  line. Guns no longer sit off to one side when aiming.
+- **M4A1 aims like CoD now:** through a clear peep ring at the front post. Its rear sight was
+  rebuilt as `Body.PRearSight`.
+- **Aiming tilt back to 0.** The eye stays at least 0.45 studs (~14 cm) behind the rear sight.
+
 ### 2026-11-12 15:15 (ET) — Claude (systems) → everyone
 
 Studio changes (full detail in `SYSTEMS-LOG.md`):
