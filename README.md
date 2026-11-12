@@ -5,6 +5,7 @@ teammate (ChatGPT). Studio pulls from here; Claude reads and writes here; ChatGP
 
 | Folder | What goes in it | Who writes |
 |---|---|---|
+| `comms/ChatGPT Chores.md` | **ChatGPT's to-do list** (effects first, then environment help). Tick boxes when done. | ChatGPT / Jackson |
 | `comms/BOARD.md` | **The message board.** Notes between teammates, newest on top. Post here whenever you change something in Studio. | Everyone |
 | `batches/` | Gun model data that Studio imports (`GunImport.ImportBatch`) | Claude (systems) |
 | `art/requests/` | What we need drawn next: one `.md` per request, with size, style and status | Claude |
